@@ -1,6 +1,6 @@
-simplejson
-validators
-flask
 bs4
 requests
+json
+validators
+flask
 gunicorn
