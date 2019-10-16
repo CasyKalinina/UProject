@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for
 from main import parser
+from app import app
 import json
 
 app = Flask(__name__)
