@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of articles</title>
+</head>
+<body>
+<h3>{{link}}</h3>
+<ol>
+    {% for article in list %}
+
+<li>{{ article}}</li>
+    {% endfor %}
+</ol>
+<form method="post", action="/refresh" >
+    <button name="refresh" type="submit">Обновить</button>
+</form>
+</body>
+</html>
