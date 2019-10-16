@@ -1,1 +1,1 @@
-web: gunicorn —chdir lab_1 app:app
+web: gunicorn —chdir UProject app:app
